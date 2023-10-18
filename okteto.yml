@@ -1,0 +1,12 @@
+build:
+  wendyvallejo24:
+    image: okteto.dev/graphql-wendyvallejo24:latest
+
+deploy:
+  - okteto build # build the image with the latest code
+  - kubectl apply -f manifests # create all the resources in kubernetes
+dev:
+  wendyvallejo24:
+    command: bash
+    sync:
+    - .:/graphql-trainning
