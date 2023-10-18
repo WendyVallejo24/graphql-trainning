@@ -1,6 +1,6 @@
 build:
   wendyvallejo24:
-    image: okteto.dev/graphql-wendyvallejo24:latest
+    image: okteto.dev/wendyvallejo24:latest
 
 deploy:
   - okteto build # build the image with the latest code

@@ -13,7 +13,7 @@ spec:
         app: graphql-wendyvallejo24
     spec:
       containers:
-      - image: okteto.dev/graphql-wendyvallejo24:latest
+      - image: okteto.dev/wendyvallejo24:latest
         name: wendyvallejo24
        # envFrom:
        # - configMapRef:
